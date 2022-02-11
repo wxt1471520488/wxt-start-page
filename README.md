@@ -13,7 +13,6 @@ https://start.wangxt.online/
 * 支持动态json数据获取
 * 支持手机自适应
 * 支持网站统计
-* 支持有意思的静态类库
 
 # 感谢
 https://github.com/amiron0188
