@@ -77,9 +77,11 @@ document.onkeydown = function (e) { // 回车提交表单
         var theEvent = window.event || e;
         var code = theEvent.keyCode || theEvent.which || theEvent.charCode;
         if (code == 13) {   
-          p='https://cn.bing.com/search?q=';
-    n='&ensearch=1&FORM=BESBTB'
-    s='https://www4.bing.com/?scope=web&FORM=BESBTB';
+            p="https://www.google.com/search?q=";
+
+            n="&gws_rd=cr&nfpr=1&newwindow=1&num=30";
+        
+            s='https://www.google.com/webhp?gws_rd=cr&nfpr=1&newwindow=1&num=30';
                 doAction(p,n,s);
             };
         }
